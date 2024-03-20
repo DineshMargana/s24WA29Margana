@@ -6,7 +6,7 @@ var factor = 1;
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   factor=factor+1
-  let result =product*factor;
+  product *= factor;
   res.send(`product is : ${result}`);
 });
 
