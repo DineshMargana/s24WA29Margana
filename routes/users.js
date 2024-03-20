@@ -7,7 +7,7 @@ var factor = 1;
 router.get('/', function(req, res, next) {
   factor=factor+1
   product *= factor;
-  res.send(`product is : ${result}`);
+  res.send(`product is : ${product}`);
 });
 
 module.exports = router;
